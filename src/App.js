@@ -6,9 +6,7 @@ import PageNavigator from './components/PageNavigator';
 function App() {
   return (
     <div className="App">
-      <body> 
-        <PageNavigator/>
-      </body>
+        <PageNavigator cant={5}/>
     </div>
   );
 }
